@@ -5,7 +5,7 @@ const ProductCard = () => {
   return (
     <div className="card mx-0 px-0 bg-base-100  shadow-sm">
       <figure>
-        <img src="https://i.ibb.co.com/bR3q2zNj/farm.jpg" alt="Plant Image" />
+        <img className="rounded-t-xl w-full" src="https://i.ibb.co.com/bR3q2zNj/farm.jpg" alt="Plant Image" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">Crons</h2>

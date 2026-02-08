@@ -4,7 +4,7 @@ import { MdEmail } from 'react-icons/md';
 
 const Contact = () => {
     return (
-       <section className="py-12 md:py-20 bg-gray-400 text-black overflow-hidden">
+       <section className="py-12 md:py-20 bg-gray-200 min-h-screen text-black overflow-hidden">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
           <div className="space-y-6">
@@ -104,12 +104,13 @@ const Contact = () => {
                   required
                 ></textarea>
               </div>
+             <div className='flex justify-center items-center'> <span className='text-5xl mt-2 text-white'><MdEmail /></span>
               <button
                 type="submit"
-                className="w-full py-3 md:py-4 bg-[#00a86b] hover:bg-[#008f5a] text-white rounded-lg font-bold shadow-lg shadow-[#00a86b]/20 transition-all active:scale-[0.98] text-sm md:text-base mt-2"
+                className="px-5 py-3 md:py-2 bg-[#00a86b] hover:bg-[#008f5a] text-white rounded-lg font-bold shadow-lg shadow-[#00a86b]/20 transition-all active:scale-[0.98] text-sm md:text-base mt-2"
               >
-                Send Issue
-              </button>
+                  submit
+              </button></div>
             </form>
           </div>
         </div>

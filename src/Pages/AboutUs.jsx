@@ -3,12 +3,12 @@ import React from "react";
 const AboutUs = () => {
   return (
     <div className="max-w-[1440px] mx-auto my-10">
-      <h1 className="text-3xl font-semibold text-gray-600 text-center">
+      <h1 className="text-3xl underline  font-semibold text-gray-600 text-center">
         About us
       </h1>
 
       <div className="bg-white py-16 px-6 sm:px-12 lg:px-24">
-        <div className="max-w-4xl mx-auto border-l-4 border-emerald-600 pl-8">
+        <div className="max-w-4xl mx-auto border-l-20 rounded-l-2xl border-emerald-600 pl-8">
           <div className="mb-8">
             <h2 className="text-4xl font-bold text-gray-900 tracking-tight">
               Who We Are
@@ -34,19 +34,19 @@ const AboutUs = () => {
       </div>
       <div>
         {" "}
-        <h1 className="text-3xl font-semibold text-gray-600 text-center">
+        <h1 className="text-3xl underline font-semibold text-gray-600 text-center">
           Our Mission & Vission
         </h1>
-        <div className="flex items-center justify-center gap-20 mt-10">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-20 mt-10">
           {" "}
-          <ul className="list-disc space-y-4 text-2xl">
+          <ul className="list-disc ml-7 md:ml-0 space-y-4 text-2xl">
             <li>Make out country Green</li>
             <li>Keep our child Breath healthy</li>
             <li>10+ million Plants make in Bangladesh</li>
             <li>Making Out country carbon minimize</li>
           </ul>
           <img
-            className="rounded-2xl"
+            className="rounded-2xl mx-1 md:mx-0"
             src="https://i.ibb.co.com/ycWDZV8G/Rice.jpg"
             alt=""
           />

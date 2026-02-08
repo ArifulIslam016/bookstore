@@ -62,8 +62,8 @@ const Navbar = () => {
             </ul>
           </div>
           {/* Brand Logo/Title */}
-          <a className="btn btn-ghost text-xl font-extrabold hidden md:block tracking-tighter text-[#00a86b]">
-            <span className="text-[#00a86b]">Plant</span>
+          <a className="btn btn-ghost text-xl font-extrabold  md:block tracking-tighter text-[#00a86b]">
+            <span className="text-[#00a86b]">PLANT </span>
             <span className="text-white">STORE</span>
           </a>
         </div>
@@ -73,21 +73,6 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-
-        {/* <div className="navbar-end gap-2">
-          <NavLink
-            to={"/login"}
-            className="btn bg-[#00a86b] hover:bg-[#008f5a] border-none text-white btn-sm px-6"
-          >
-            Login
-          </NavLink>
-          <NavLink
-            to={"/register"}
-            className="btn bg-[#00a86b] hover:bg-[#008f5a] border-none text-white btn-sm px-6"
-          >
-            Sign Up
-          </NavLink>
-        </div> */}
       </div>
     </div>
   );
