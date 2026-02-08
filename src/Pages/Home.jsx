@@ -8,7 +8,7 @@ const Home = () => {
         <div className='max-w-[1440px] space-y-5 mx-auto'>
             <Slider></Slider>
             <h1 className='text-3xl text-black font-bold text-center my-6'>Recent Product</h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-5'>
                 {
                     arr.map(a=><ProductCard></ProductCard>)
                 }

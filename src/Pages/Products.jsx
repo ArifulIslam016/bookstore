@@ -8,7 +8,7 @@ const Products = () => {
       <h1 className="text-3xl text-black font-bold text-center my-6">
       Out Products
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-5">
         {arr.map((a) => (
           <ProductCard></ProductCard>
         ))}
