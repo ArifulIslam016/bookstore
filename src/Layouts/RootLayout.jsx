@@ -5,7 +5,7 @@ import Footer from '../Components/Footer';
 
 const RootLayout = () => {
     return (
-        <div className='mx-auto flex flex-col min-h-screen'>
+        <div className='mx-auto max-w-[1440px] flex flex-col min-h-screen'>
             <Navbar></Navbar>
             <main className='grow'>
                 <Outlet></Outlet>
