@@ -8,6 +8,7 @@ import Home from './Pages/Home.jsx'
 import Contact from './Pages/Contact.jsx'
 import AboutUs from './Pages/AboutUs.jsx'
 import Products from './Pages/Products.jsx'
+import DetailedProduct from './Pages/DetailedProduct.jsx'
 const router=createBrowserRouter([{
   path:'/',
   Component:RootLayout,
@@ -23,6 +24,9 @@ const router=createBrowserRouter([{
   },{
     path:"/products",
     Component:Products
+  }{
+    path:'/detailedProducts',
+    Component:DetailedProduct
   }]
 
 }])
